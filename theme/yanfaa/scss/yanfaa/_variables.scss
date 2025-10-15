@@ -1,0 +1,13 @@
+// Central variables for the Yanfaa theme.
+
+// Brand color can be overridden by admin setting via CSS custom property injection if needed.
+$brand-color: #0f766e !default; // teal-like
+$brand-color-contrast: #ffffff !default;
+
+// Spacing helpers
+$section-padding-y: 4rem !default;
+
+// Map shim to allow preset to import earlier
+@import "variables-map";
+
+
