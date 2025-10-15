@@ -1,0 +1,15 @@
+<nav class="navbar navbar-expand navbar-light bg-white border-bottom">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center" href="{{{ config.wwwroot }}}/">
+      {{# output.has_logo }}
+        <img src="{{ output.get_logo_url }}" alt="{{sitename}}" height="32" class="me-2"/>
+      {{/ output.has_logo }}
+      <span class="fw-bold">{{sitename}}</span>
+    </a>
+    <ul class="navbar-nav ms-auto">
+      {{{ output.render_navbar_output }}}
+    </ul>
+  </div>
+</nav>
+
+

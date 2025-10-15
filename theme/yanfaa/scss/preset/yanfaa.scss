@@ -1,0 +1,15 @@
+@import "../yanfaa/variables-map";
+@import "../../../boost/scss/moodle";
+
+body { font-family: "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: #0f172a; }
+h1, h2, h3, h4, h5, h6 { font-weight: 700; }
+
+.btn-primary { background-color: $brand-color; border-color: $brand-color; }
+.btn-primary:hover, .btn-primary:focus { background-color: darken($brand-color, 6%); border-color: darken($brand-color, 6%); }
+
+.yanfaa-hero { background: linear-gradient(135deg, $brand-color 0%, lighten($brand-color, 18%) 100%); color: #fff; padding: 4rem 0; }
+.yanfaa-hero .lead { font-size: 1.25rem; }
+
+.card { border: 1px solid rgba(15, 23, 42, 0.06); border-radius: .75rem; }
+
+
